@@ -1,0 +1,90 @@
+/* Custom Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Custom Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Responsif Logo */
+.logo img {
+    max-height: 50px; /* Tinggi maksimum logo */
+    width: auto; /* Lebar otomatis mengikuti proporsi */
+    display: block;
+}
+
+/* Responsif untuk layar kecil */
+@media (max-width: 768px) {
+    .logo img {
+        max-height: 40px; /* Logo lebih kecil di layar kecil */
+    }
+
+    header .logo img {
+        max-width: 150px;
+        /* Batasi lebar maksimal */
+        height: auto;
+        /* Pertahankan proporsi gambar */
+        display: block;
+        /* Hilangkan spasi ekstra jika ada */
+    }
+
+    header {
+        padding: 10px 20px; /* Atur padding atas/bawah dan kiri/kanan */
+        display: flex;
+        align-items: center; /* Tengahkan elemen vertikal */
+        justify-content: space-between; /* Pisahkan logo dan navigasi */
+      }      
+
+    nav {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    nav a {
+        display: block;
+        margin: 5px 0;
+    }
+
+    .hero-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .hero-section p {
+        font-size: 0.9rem;
+    }
+
+    /* Responsif Produk */
+    .card {
+        margin-bottom: 20px;
+    }
+
+    /* Footer Responsif */
+    footer .row {
+        text-align: center;
+    }
+
+    footer .col-md-4 {
+        margin-bottom: 20px;
+    }
+
+    footer p,
+    footer h5 {
+        font-size: 0.9rem;
+    }
+
+    .container {
+        padding: 15px;
+    }
+}
